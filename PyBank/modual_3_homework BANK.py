@@ -56,3 +56,8 @@ output = f'''
 '''
 
 print(output)
+
+with open("output.txt", "w") as f:
+  print(output, file=f)
+
+
